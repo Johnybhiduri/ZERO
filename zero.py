@@ -55,7 +55,7 @@ class Zero:
         engine.say(audio)
         engine.runAndWait()
 
-    def main(self):
+    def start(self):
         quit = False
         while not quit:
             command = self.audio()
