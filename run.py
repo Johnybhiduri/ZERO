@@ -2,4 +2,4 @@ from zero import Zero
 
 chatbot = Zero("John")
 
-chatbot.main()
+chatbot.start()
