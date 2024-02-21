@@ -3,7 +3,6 @@ import requests
 import os
 from dotenv import load_dotenv
 import json
-import requests
 import pyttsx3
 load_dotenv()
 
@@ -57,17 +56,29 @@ class Zero:
         engine.runAndWait()
 
     def main(self):
-        while True:
+        quit = False
+        while not quit:
             command = self.audio()
-            command_text = self.speechToText(command)
-            print(command_text)
+            if command:
+                command_text = self.speechToText(command)
+                print(command_text)
             if command_text and self.wake_word.lower() in command_text.lower():
                 self.speak('Yes sir!')
-                question = self.audio()
-                question_text = self.speechToText(question)
-                print("Question: ", question_text)
-                response = self.virtualAssistant(question_text)
-                self.speak(response)
+                while True:
+                    question = self.audio()
+                    if question:
+                        question_text = self.speechToText(question)
+                        print("Question: ", question_text)
+                        if "quit" in question_text.strip().lower():
+                            quit = True
+                            self.speak("Quitting Now!")
+                            break
+                        elif "sleep" in question_text.strip().lower():
+                            self.speak("Sleeping Now!")
+                            break
+                        response = self.virtualAssistant(question_text)
+                        print("Answer: ", response)
+                        self.speak(response)
             
             elif command_text and "quit" in command_text.lower():
                 self.speak("Quitting Now!")

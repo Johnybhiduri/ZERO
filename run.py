@@ -1,5 +1,5 @@
 from zero import Zero
 
-chatbot = Zero("Tom")
+chatbot = Zero("John")
 
 chatbot.main()
