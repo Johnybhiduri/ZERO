@@ -9,11 +9,11 @@ Currently It does not have much features its a simple chat bot, you can give it 
 
 ## Features:
 
-  -Free to use with free hugging face API.
+  - Free to use with free hugging face API.
   
-  -Wake Word like ALexa, Google , Hey siri.
+  - Wake Word like ALexa, Google , Hey siri.
   
-  -You can provide differnt LLM's and ASR Models which supports the Inference API.
+  - You can provide differnt LLM's and ASR Models which supports the Inference API.
 
 
 ## Features To be added in future:
