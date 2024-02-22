@@ -51,3 +51,11 @@ Currently It does not have much features its a simple chat bot, you can give it 
 - Delete, save, copy and move files from one folder to another.
 
 - Custom instructions using prompts.
+
+- Language Translation.
+
+- Handle Finances and daily repeated tasks automatically
+
+- Create excel sheets
+
+- Provide tranning related to multiple skills.
