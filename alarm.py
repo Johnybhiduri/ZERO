@@ -68,7 +68,6 @@ if __name__ == "__main__":
 
         if user_input:
             if "set alarm" in user_input:
-                print('\nSetting the alarm at the desired time!')
                 alarm.setAlarm()
             elif "exit" in user_input:
                 print('\nGoodBye!')
