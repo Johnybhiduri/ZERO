@@ -36,7 +36,7 @@ class Alarm:
 
 
     # Function to set alarm
-    def set_alarm(self):
+    def setAlarm(self):
         self.speak("What time would you like to set the alarm for?")
         alarm_time = self.userSpeech()
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
         if user_input:
             if "set alarm" in user_input:
                 print('\nSetting the alarm at the desired time!')
-                alarm.set_alarm()
+                alarm.setAlarm()
             elif "exit" in user_input:
                 print('\nGoodBye!')
                 alarm.speak("Goodbye!")
