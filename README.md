@@ -14,6 +14,11 @@ Currently It does not have much features its a simple chat bot, you can give it 
   - Custom Wake Word like ALexa, Google , Hey siri.
   
   - You can provide differnt LLM's and ASR Models which supports the Inference API.
+  
+  - Set Alarm
+
+  - Text to image generation using hugging face inference API.
+
 
 
 ## Features To be added in future:
@@ -25,10 +30,6 @@ Currently It does not have much features its a simple chat bot, you can give it 
 - Run Programs
 
 - Schedule Tasks
-
-- Set Alarm
-
-- Text to Image generation
 
 - Text to video generation
 
