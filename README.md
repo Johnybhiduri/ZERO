@@ -19,6 +19,8 @@ Currently It does not have much features its a simple chat bot, you can give it 
 
   - Text to image generation using hugging face inference API.
 
+  -  Schedule Tasks
+
 
 
 ## Features To be added in future:
@@ -28,8 +30,6 @@ Currently It does not have much features its a simple chat bot, you can give it 
 - Search Google
 
 - Run Programs
-
-- Schedule Tasks
 
 - Text to video generation
 
